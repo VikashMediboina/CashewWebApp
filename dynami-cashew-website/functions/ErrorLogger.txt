@@ -1,0 +1,912 @@
+Sat May 02 2020 11:18:26 GMT+0530 (India Standard Time) : MongooseError: 3rd parameter to `mongoose.connect()` or `mongoose.createConnection()` must be a function, got "object"
+    at new MongooseError (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\error\mongooseError.js:10:11)
+    at NativeConnection.Connection.openUri (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\connection.js:585:11)
+    at Mongoose.connect (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\index.js:333:15)
+    at Object.connection.userDetailsSchemaPro (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:437:21)
+    at Object.generateID.generate (F:\project practice\dynami-cashew-website\functions\utilities\generateID.js:5:23)
+    at routing.post (F:\project practice\dynami-cashew-website\functions\routes\user.js:7:16)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+Sat May 02 2020 17:09:19 GMT+0530 (India Standard Time) : TypeError: generateID.generate(...).then is not a function
+    at routing.post (F:\project practice\dynami-cashew-website\functions\routes\user.js:7:27)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:101:7)
+Sat May 02 2020 17:10:36 GMT+0530 (India Standard Time) : TypeError: generateID.generate(...).then is not a function
+    at routing.post (F:\project practice\dynami-cashew-website\functions\routes\user.js:7:27)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:101:7)
+Sat May 02 2020 17:11:40 GMT+0530 (India Standard Time) : TypeError: generateID.generate(...).then is not a function
+    at routing.post (F:\project practice\dynami-cashew-website\functions\routes\user.js:7:27)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:101:7)
+Sat May 02 2020 17:32:01 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:442:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 17:32:58 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:442:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 17:34:01 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'json' of undefined
+    at userData.register.then.res (F:\project practice\dynami-cashew-website\functions\routes\user.js:17:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 17:34:51 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'json' of undefined
+    at userData.register.then.res (F:\project practice\dynami-cashew-website\functions\routes\user.js:17:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:10:43 GMT+0530 (India Standard Time) : Error: User email or phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:24:41 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:25:34 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:26:27 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:31:22 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:31:40 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:33:25 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:38:32 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:43:15 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:45:25 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:47:11 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:48:33 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:49:04 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:50:13 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:51:57 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:53:47 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:54:27 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:55:21 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 18:55:54 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:00:07 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:00:58 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:01:34 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:02:06 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:03:40 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:04:35 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:04:56 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:06:09 GMT+0530 (India Standard Time) : Error: User email or phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:17:39 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:18:30 GMT+0530 (India Standard Time) : Error: User email or phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:20:33 GMT+0530 (India Standard Time) : Error: User email or phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:22:02 GMT+0530 (India Standard Time) : Error: User email or phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:28:03 GMT+0530 (India Standard Time) : Error: User email or phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:29:52 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:31:18 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:32:59 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:34:33 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:36:57 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:39:59 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:40:35 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:42:08 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 19:52:53 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 20:06:07 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 20:07:33 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 20:10:21 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 20:15:44 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 20:16:27 GMT+0530 (India Standard Time) : Error: User email or phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 20:17:11 GMT+0530 (India Standard Time) : Error: User email or phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 20:18:04 GMT+0530 (India Standard Time) : Error: User email or phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 20:19:14 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 20:19:46 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 22:08:51 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 22:13:32 GMT+0530 (India Standard Time) : ReferenceError: id is not defined
+    at routing.post (F:\project practice\dynami-cashew-website\functions\routes\user.js:8:27)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:101:7)
+Sat May 02 2020 22:13:57 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 22:19:23 GMT+0530 (India Standard Time) : Error: User email or phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 22:59:38 GMT+0530 (India Standard Time) : Error: User phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:03:14 GMT+0530 (India Standard Time) : Error: User phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:06:19 GMT+0530 (India Standard Time) : Error: User phone No already exists
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:29:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:26:34 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:43:10 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'message' of undefined
+    at collection.userDetailsSchemaPro.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\register.js:23:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:46:14 GMT+0530 (India Standard Time) : ReferenceError: next is not defined
+    at collection.userDetailsSchemaPro.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:56:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:47:20 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:51:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:49:30 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:51:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:49:53 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:51:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:51:54 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:52:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:53:14 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:52:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:53:52 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:53:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:54:17 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:53:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:54:33 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:53:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:55:16 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:53:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:56:05 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:56:32 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:57:32 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 02 2020 23:57:58 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 22:16:22 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'phoneNo' of undefined
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:33:39)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 22:18:43 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'emailId' of undefined
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:34:39)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 22:20:25 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 23:34:51 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 23:35:19 GMT+0530 (India Standard Time) : TypeError: token.generateToken(...).then is not a function
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:38:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 23:36:48 GMT+0530 (India Standard Time) : TypeError: token.generateToken(...).then is not a function
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:38:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 23:38:34 GMT+0530 (India Standard Time) : TypeError: token.generateToken(...).then is not a function
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:44:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 23:39:35 GMT+0530 (India Standard Time) : TypeError: token.generateToken(...).then is not a function
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:44:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 23:40:04 GMT+0530 (India Standard Time) : TypeError: token.generateToken(...).then is not a function
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:44:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 23:40:57 GMT+0530 (India Standard Time) : TypeError: token.generateToken(...).then is not a function
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:44:42)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 23:43:24 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'then' of undefined
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:44:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 23:46:11 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'then' of undefined
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:44:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 23:47:25 GMT+0530 (India Standard Time) : ReferenceError: token is not defined
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:44:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 23:57:27 GMT+0530 (India Standard Time) : ReferenceError: token is not defined
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:44:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 03 2020 23:57:58 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'then' of undefined
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:44:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 04 2020 00:00:40 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 04 2020 00:01:18 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'then' of undefined
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:44:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 04 2020 00:03:30 GMT+0530 (India Standard Time) : TypeError: jwt.sign(...).then is not a function
+    at Object.token.generateToken (F:\project practice\dynami-cashew-website\functions\utilities\token.js:4:122)
+    at userData.login.then.data (F:\project practice\dynami-cashew-website\functions\routes\user.js:44:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 04 2020 00:07:14 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 04 2020 16:49:52 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'then' of undefined
+    at costs.post (F:\project practice\dynami-cashew-website\functions\routes\costs.js:6:38)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:101:7)
+Mon May 04 2020 16:51:10 GMT+0530 (India Standard Time) : TypeError: token.verifyToken(...).then is not a function
+    at costs.post (F:\project practice\dynami-cashew-website\functions\routes\costs.js:6:39)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:101:7)
+Mon May 04 2020 17:03:04 GMT+0530 (India Standard Time) : Error: Please Login For Securite Reasons
+    at costs.post (F:\project practice\dynami-cashew-website\functions\routes\costs.js:10:25)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:101:7)
+Mon May 04 2020 17:10:28 GMT+0530 (India Standard Time) : ReferenceError: MM is not defined
+    at costs.post (F:\project practice\dynami-cashew-website\functions\routes\costs.js:16:55)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:101:7)
+Mon May 04 2020 17:11:01 GMT+0530 (India Standard Time) : TypeError: collection.find is not a function
+    at Object.costs.getCity (F:\project practice\dynami-cashew-website\functions\models\costs.js:5:16)
+    at costs.post (F:\project practice\dynami-cashew-website\functions\routes\costs.js:16:24)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+Mon May 04 2020 19:34:48 GMT+0530 (India Standard Time) : Error: Please Login Again For Securite Reasons
+    at costs.post (F:\project practice\dynami-cashew-website\functions\routes\costs.js:10:25)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:101:7)
+Mon May 04 2020 19:43:18 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\costs.js:41:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 04 2020 20:53:44 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\costs.js:54:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 04 2020 21:00:20 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\costs.js:54:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 04 2020 21:04:50 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\costs.js:54:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 04 2020 21:05:49 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\costs.js:54:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 04 2020 21:06:17 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\costs.js:54:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 04 2020 22:17:36 GMT+0530 (India Standard Time) : Error: Please Login Again For Securite Reasons
+    at costs.post (F:\project practice\dynami-cashew-website\functions\routes\costs.js:10:25)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:101:7)
+Wed May 06 2020 00:09:58 GMT+0530 (India Standard Time) : Error: Technical error try after some time
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:68:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 06 2020 00:11:54 GMT+0530 (India Standard Time) : Error: Technical error try after some time
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:68:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri May 08 2020 19:33:45 GMT+0530 (India Standard Time) : ReferenceError: district is not defined
+    at costs.post (F:\project practice\dynami-cashew-website\functions\routes\costs.js:135:58)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:101:7)
+Fri May 08 2020 19:34:19 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeSchema
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:301:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri May 08 2020 19:41:39 GMT+0530 (India Standard Time) : TypeError: res.json is not a function
+    at costsModel.appendPlaces.then.res (F:\project practice\dynami-cashew-website\functions\routes\costs.js:136:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri May 08 2020 22:48:54 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'errmsg' of undefined
+    at collection.insertMany.then.catch (F:\project practice\dynami-cashew-website\functions\models\costs.js:246:81)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri May 08 2020 22:50:41 GMT+0530 (India Standard Time) : MongoError: $elemMatch needs an Object
+    at Connection.<anonymous> (F:\project practice\dynami-cashew-website\functions\node_modules\mongodb\lib\core\connection\pool.js:450:61)
+    at Connection.emit (events.js:198:13)
+    at processMessage (F:\project practice\dynami-cashew-website\functions\node_modules\mongodb\lib\core\connection\connection.js:384:10)
+    at TLSSocket.<anonymous> (F:\project practice\dynami-cashew-website\functions\node_modules\mongodb\lib\core\connection\connection.js:553:15)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+Fri May 08 2020 23:06:32 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'errmsg' of undefined
+    at collection.updateOne.then.catch (F:\project practice\dynami-cashew-website\functions\models\costs.js:176:109)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri May 08 2020 23:10:29 GMT+0530 (India Standard Time) : MongooseError: Callback must be a function, got [object Object]
+    at new MongooseError (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\error\mongooseError.js:10:11)
+    at Function.Model.$handleCallbackError (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\model.js:4880:11)
+    at _update (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\model.js:3781:20)
+    at Function.updateOne (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\model.js:3730:10)
+    at collection.find.then.cityresponse (F:\project practice\dynami-cashew-website\functions\models\costs.js:156:59)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri May 08 2020 23:13:21 GMT+0530 (India Standard Time) : MongooseError: Callback must be a function, got [object Object]
+    at new MongooseError (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\error\mongooseError.js:10:11)
+    at Function.Model.$handleCallbackError (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\model.js:4880:11)
+    at _update (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\model.js:3781:20)
+    at Function.updateOne (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\model.js:3730:10)
+    at collection.find.then.cityresponse (F:\project practice\dynami-cashew-website\functions\models\costs.js:156:59)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri May 08 2020 23:13:39 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'errmsg' of undefined
+    at collection.updateOne.then.catch (F:\project practice\dynami-cashew-website\functions\models\costs.js:175:109)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri May 08 2020 23:14:44 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'errmsg' of undefined
+    at collection.updateOne.then.catch (F:\project practice\dynami-cashew-website\functions\models\costs.js:176:109)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri May 08 2020 23:17:22 GMT+0530 (India Standard Time) : MongooseError: Callback must be a function, got [object Object]
+    at new MongooseError (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\error\mongooseError.js:10:11)
+    at Function.Model.$handleCallbackError (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\model.js:4880:11)
+    at _update (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\model.js:3781:20)
+    at Function.updateOne (F:\project practice\dynami-cashew-website\functions\node_modules\mongoose\lib\model.js:3730:10)
+    at collection.find.then.cityresponse (F:\project practice\dynami-cashew-website\functions\models\costs.js:156:59)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 09 2020 00:30:52 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.find.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\costs.js:132:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 09 2020 00:36:06 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\costs.js:97:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 09 2020 16:23:59 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 09 2020 16:25:13 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch.error (F:\project practice\dynami-cashew-website\functions\models\costs.js:97:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 09 2020 19:55:35 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 09 2020 22:29:24 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeCostsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:294:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 09 2020 22:33:46 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeSchema
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:309:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat May 09 2020 23:59:34 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 07:45:15 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeCostsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:294:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 08:56:37 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeSchema
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:309:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 08:57:43 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:280:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 19:06:52 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch (F:\project practice\dynami-cashew-website\functions\models\costs.js:319:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 19:07:49 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch (F:\project practice\dynami-cashew-website\functions\models\costs.js:319:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 19:11:54 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch (F:\project practice\dynami-cashew-website\functions\models\costs.js:325:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 19:14:06 GMT+0530 (India Standard Time) : ReferenceError: req is not defined
+    at Object.costs.appendPlaces (F:\project practice\dynami-cashew-website\functions\models\costs.js:183:20)
+    at costs.post (F:\project practice\dynami-cashew-website\functions\routes\costs.js:39:24)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+Sun May 10 2020 19:17:06 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch (F:\project practice\dynami-cashew-website\functions\models\costs.js:311:39)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 19:18:46 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch (F:\project practice\dynami-cashew-website\functions\models\costs.js:312:39)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 19:21:19 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.insertMany.then.catch (F:\project practice\dynami-cashew-website\functions\models\costs.js:311:39)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 19:23:52 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'W210' of undefined
+    at createAverageData (F:\project practice\dynami-cashew-website\functions\models\costs.js:14:37)
+    at collection.find.then.countryresponse (F:\project practice\dynami-cashew-website\functions\models\costs.js:205:48)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 19:24:54 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'W210' of undefined
+    at createAverageData (F:\project practice\dynami-cashew-website\functions\models\costs.js:14:37)
+    at collection.find.then.countryresponse (F:\project practice\dynami-cashew-website\functions\models\costs.js:206:48)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 19:25:27 GMT+0530 (India Standard Time) : TypeError: Cannot read property 'W210' of undefined
+    at createAverageData (F:\project practice\dynami-cashew-website\functions\models\costs.js:14:37)
+    at collection.find.then.countryresponse (F:\project practice\dynami-cashew-website\functions\models\costs.js:206:48)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 19:26:08 GMT+0530 (India Standard Time) : ReferenceError: consolee is not defined
+    at collection.find.then.countryresponse (F:\project practice\dynami-cashew-website\functions\models\costs.js:207:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 19:29:33 GMT+0530 (India Standard Time) : ReferenceError: id is not defined
+    at collection.find.then.countryresponse (F:\project practice\dynami-cashew-website\functions\models\costs.js:207:59)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 20:35:14 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:309:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 20:36:32 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:308:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 20:45:26 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeCostsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:586:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 20:49:26 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeCostsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:586:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 20:51:38 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:307:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 23:15:57 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:319:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 23:17:15 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:319:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 23:27:48 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:342:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 23:30:18 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:341:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sun May 10 2020 23:51:05 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:379:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:01:16 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:400:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:02:45 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:400:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:03:52 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:401:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:12:09 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:415:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:13:52 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:415:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:15:16 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:415:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:17:25 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:415:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:19:19 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:416:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:20:05 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:416:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:37:25 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeCostsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:586:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:38:01 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeCostsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:586:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:38:49 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeCostsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:586:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 00:40:33 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeCostsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:586:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 12:56:58 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:441:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 13:00:59 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:447:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 13:02:56 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:447:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 13:03:30 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:447:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 13:05:56 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:447:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 13:07:18 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:447:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 15:46:54 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:447:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 15:47:43 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:447:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 16:00:44 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:449:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 16:01:09 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:449:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 16:03:37 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:449:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 18:46:31 GMT+0530 (India Standard Time) : TypeError: userModel.appendCosts is not a function
+    at costsModel.appendPlaces.then (F:\project practice\dynami-cashew-website\functions\routes\costs.js:40:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 18:47:01 GMT+0530 (India Standard Time) : Error: Technical error try after some time
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:68:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 18:48:18 GMT+0530 (India Standard Time) : Error: Technical error try after some time
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:68:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 19:08:24 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeCostsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:586:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon May 11 2020 19:13:46 GMT+0530 (India Standard Time) : TypeError: costsModel.getAllPlace is not a function
+    at costs.post (F:\project practice\dynami-cashew-website\functions\routes\costs.js:70:16)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:119:7)
+Mon May 11 2020 22:20:02 GMT+0530 (India Standard Time) : TypeError: costsModel.getAllPlace is not a function
+    at costs.post (F:\project practice\dynami-cashew-website\functions\routes\costs.js:70:16)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:119:7)
+Mon May 11 2020 23:25:52 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue May 12 2020 18:56:28 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:572:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue May 12 2020 19:02:48 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:572:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue May 12 2020 19:06:41 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:572:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue May 12 2020 22:45:47 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:572:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue May 12 2020 22:54:50 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:572:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue May 12 2020 22:55:22 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:572:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue May 12 2020 22:55:44 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:572:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue May 12 2020 22:56:09 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:572:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue May 12 2020 22:58:26 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:572:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 00:08:41 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 00:10:39 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 00:13:09 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 00:13:26 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 00:14:17 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 00:16:15 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 00:17:33 GMT+0530 (India Standard Time) : Error: Entered Wrong PhoneNo or Password
+    at collection.find.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\register.js:54:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 00:18:49 GMT+0530 (India Standard Time) : ReferenceError: wronManFullCashew is not defined
+    at routing.post (F:\project practice\dynami-cashew-website\functions\routes\user.js:173:9)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:317:13)
+    at F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\project practice\dynami-cashew-website\functions\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (F:\project practice\dynami-cashew-website\functions\node_modules\body-parser\lib\types\json.js:101:7)
+Wed May 13 2020 11:45:11 GMT+0530 (India Standard Time) : TypeError: res.json is not a function
+    at userModel.getCosts.then.res (F:\project practice\dynami-cashew-website\functions\routes\costs.js:80:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 11:46:39 GMT+0530 (India Standard Time) : TypeError: res.json is not a function
+    at userModel.getCosts.then.res (F:\project practice\dynami-cashew-website\functions\routes\costs.js:80:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 11:57:50 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:553:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 11:59:50 GMT+0530 (India Standard Time) : ReferenceError: resp is not defined
+    at userModel.getCosts.then.resP (F:\project practice\dynami-cashew-website\functions\routes\costs.js:80:29)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 12:00:14 GMT+0530 (India Standard Time) : ReferenceError: resp is not defined
+    at userModel.getCosts.then.resP (F:\project practice\dynami-cashew-website\functions\routes\costs.js:80:29)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 22:18:04 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:368:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 22:31:29 GMT+0530 (India Standard Time) : Error: Could not connect to Database userDetailsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:553:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 22:35:15 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeCostsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:567:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 22:37:42 GMT+0530 (India Standard Time) : Error: Could not connect to Database placeCostsSchemaPro
+    at mongoose.connect.then.catch (F:\project practice\dynami-cashew-website\functions\utilities\connection.js:567:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 13 2020 23:28:51 GMT+0530 (India Standard Time) : Error: sorry some technical error
+    at collection.updateOne.then.catch.err (F:\project practice\dynami-cashew-website\functions\models\costs.js:368:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
